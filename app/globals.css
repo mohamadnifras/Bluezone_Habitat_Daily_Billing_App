@@ -262,7 +262,7 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
     border: 1px solid #d2dfe2 !important;
     border-top: none !important;
     table-layout: fixed !important;
-    font-size: 11px !important;
+    font-size: 12px !important;
   }
 
   .print-page .bill-table thead {
@@ -282,10 +282,10 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
   .print-page .bill-table th {
     background: #f8fbfa !important;
     color: #576d75 !important;
-    font-size: 10px !important;
+    font-size: 11px !important;
     font-weight: 800 !important;
     text-transform: uppercase !important;
-    padding: 8px 8px !important;
+    padding: 8.5px 8px !important;
     border-bottom: 1px solid #d2dfe2 !important;
     border-right: 1px solid #d2dfe2 !important;
     text-align: left !important;
@@ -298,24 +298,24 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
   }
 
   .print-page .bill-table td {
-    padding: 8px 8px !important;
+    padding: 8.5px 8px !important;
     border-bottom: 1px solid #e5edef !important;
     border-right: 1px solid #e5edef !important;
     vertical-align: top !important;
     color: #27444e !important;
-    font-size: 11px !important;
-    line-height: 1.4 !important;
+    font-size: 12px !important;
+    line-height: 1.45 !important;
   }
 
   .print-page .bill-table td:last-child {
     border-right: none !important;
     text-align: right !important;
     font-weight: 800 !important;
-    font-size: 11.5px !important;
+    font-size: 12.5px !important;
   }
 
   .print-page .bill-table td .minor {
-    font-size: 9.5px !important;
+    font-size: 10px !important;
     color: #748791 !important;
     margin-top: 2px !important;
   }
@@ -324,7 +324,7 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
     text-align: center !important;
     padding: 24px 8px !important;
     color: #a9b8bd !important;
-    font-size: 11px !important;
+    font-size: 12px !important;
   }
 
   .print-page .print-totals-wrap {
@@ -341,25 +341,25 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
   }
 
   .print-page .doc-brand {
-    font-size: 20px !important;
+    font-size: 21px !important;
     font-weight: 900 !important;
     letter-spacing: 0.05em !important;
     color: white !important;
   }
 
   .print-page .doc-header small {
-    font-size: 9.5px !important;
+    font-size: 10px !important;
     color: #92b7c6 !important;
     line-height: 1.45 !important;
     text-align: right !important;
   }
 
   .print-page .doc-sec-title {
-    font-size: 11px !important;
+    font-size: 12px !important;
     font-weight: 900 !important;
     background: #1e353f !important;
     color: white !important;
-    padding: 6px 9px !important;
+    padding: 6.5px 10px !important;
     margin-top: 8px !important;
     margin-bottom: 0 !important;
     letter-spacing: 0.04em !important;
@@ -384,7 +384,7 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
   }
 
   .print-page .doc-info-cell .d-label {
-    font-size: 9px !important;
+    font-size: 9.5px !important;
     color: #748791 !important;
     text-transform: uppercase !important;
     font-weight: 700 !important;
@@ -393,7 +393,7 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
   }
 
   .print-page .doc-info-cell .d-value {
-    font-size: 11.5px !important;
+    font-size: 12.5px !important;
     font-weight: 800 !important;
     color: #163b49 !important;
   }
@@ -408,7 +408,7 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
   .print-page .doc-words {
     padding: 8px 10px !important;
     border-right: 1px solid #d2dfe2 !important;
-    font-size: 9px !important;
+    font-size: 9.5px !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
@@ -416,13 +416,13 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
 
   .print-page .doc-words b {
     color: #748791 !important;
-    font-size: 8.5px !important;
+    font-size: 9.5px !important;
     text-transform: uppercase !important;
     margin-bottom: 3px !important;
   }
 
   .print-page .doc-words span {
-    font-size: 11px !important;
+    font-size: 12px !important;
     font-weight: 800 !important;
     color: #163b49 !important;
     line-height: 1.4 !important;
@@ -432,15 +432,15 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
     display: flex !important;
     justify-content: space-between !important;
     padding: 5px 9px !important;
-    font-size: 10.5px !important;
+    font-size: 11.5px !important;
     border-bottom: 1px solid #e5edef !important;
   }
 
   .print-page .total-line:last-child {
     border-bottom: none !important;
     background: #eef6f6 !important;
-    font-size: 12.5px !important;
-    font-weight: 900 !important;
+    font-size: 13.5px !important;
+    font-weight: 950 !important;
     padding: 7px 9px !important;
   }
 
@@ -448,7 +448,7 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
     border: 1px solid #d2dfe2 !important;
     border-top: none !important;
     padding: 6px 10px !important;
-    font-size: 10px !important;
+    font-size: 10.5px !important;
     color: #576d75 !important;
     display: flex !important;
     gap: 8px !important;
@@ -457,23 +457,23 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
 
   .print-page .doc-remarks strong {
     color: #748791 !important;
-    font-size: 8.5px !important;
+    font-size: 9.5px !important;
     text-transform: uppercase !important;
   }
 
   .print-page .doc-remarks span {
-    font-size: 10.5px !important;
+    font-size: 11.5px !important;
     color: #27444e !important;
   }
 
   .print-page .print-page-bottom {
     flex: 0 0 auto !important;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+    margin-top: auto !important;
+    padding-top: 10px !important;
   }
 
   .print-page .doc-declare {
-    font-size: 8.5px !important;
+    font-size: 9.5px !important;
     color: #748791 !important;
     padding: 5px 9px !important;
     border: 1px solid #d2dfe2 !important;
@@ -504,15 +504,15 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
     font-weight: 900 !important;
     background: #e9f8f4 !important;
     text-transform: uppercase !important;
-    font-size: 8px !important;
-    min-height: 22px !important;
+    font-size: 9px !important;
+    min-height: 24px !important;
     border-bottom: 1px solid #d2dfe2 !important;
   }
 
   .print-page .sig-body {
     padding: 8px 7px !important;
-    font-size: 8.5px !important;
-    min-height: 60px !important;
+    font-size: 9.5px !important;
+    min-height: 65px !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-between !important;
@@ -521,20 +521,20 @@ table.bill-table { width:100%; border-collapse:collapse; font-size:10px; table-l
 
   .print-page .sig-line {
     color: #748791 !important;
-    font-size: 8.5px !important;
+    font-size: 9.5px !important;
   }
 
   .print-page .sig-line b {
     color: #163b49 !important;
     font-weight: 800 !important;
-    font-size: 9.5px !important;
+    font-size: 10.5px !important;
   }
 
   .print-page .doc-footer {
     display: flex !important;
     justify-content: space-between !important;
     color: #8799a0 !important;
-    font-size: 8.5px !important;
+    font-size: 9.5px !important;
     padding-top: 6px !important;
     margin-top: 4px !important;
   }

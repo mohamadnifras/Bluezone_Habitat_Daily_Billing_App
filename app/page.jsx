@@ -290,11 +290,11 @@ export default function DailyBillingApp() {
     if (!items || items.length === 0) {
       return [{ items: [], isLastPage: true, startIndex: 0 }];
     }
-    if (items.length <= 12) {
+    if (items.length <= 13) {
       return [{ items, isLastPage: true, startIndex: 0 }];
     }
-    const INTERMEDIATE_CAPACITY = 13;
-    const LAST_PAGE_CAPACITY = 12;
+    const INTERMEDIATE_CAPACITY = 15;
+    const LAST_PAGE_CAPACITY = 13;
 
     const pages = [];
     let remaining = [...items];
